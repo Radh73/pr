@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0px solid orange;
+}
+
+.main {
+	background-image: url(img/main/background3.png);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+main {
+	margin: 0 auto;
+	width: 1280px;
+	
+}
+
+.anime {
+	font-family: segoe script;
+	display: flex;
+	justify-content: center;
+}
+
+header {
+	background-color: #BA55D3;
+	font-family: segoe script;
+}
+
+ol {
+	list-style-type: none;
+}
+
+header ol {
+	display: flex;
+	justify-content: space-around;
+}
+
+a {
+	text-decoration: none;
+}
+
+.limain {
+	font-size: 22px;
+	color: #FF8C00;
+}
+
+.limain1 {
+	font-size: 22px;
+	color: #4B0082;
+}
+
+.limain2 {
+	font-size: 22px;
+	color: #00FFFF;
+	
+}
+
+.limain3 {
+	font-size: 22px;
+	color: #2F4F4F;
+}
+
+.content {
+	background-color: #9932CC;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.content div {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.content div p {
+	padding: 5px;
+}
+
+.new {
+	margin-left: 150px;
+}
+
+footer h1 {
+	display: flex;
+	justify-content: center;
+}
+
+footer ol {
+	background: #BA55D3;
+	font-family: segoe script;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer {
+	background: #BA55D3;
+	font-family: segoe script;
+}
+
+/* Naruto */
+
+.headern {
+	background-color: #FFD700;
+}
+
+.contentn {
+	background-color: #ffc100;
+}
+
+.imgn {
+	height: 250px;
+}
+
+.contentn div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mainn {
+	font-family: sans-serif;
+	background-image: url(img/naruto/backgroundn.png);
+	background-size: 100%;
+}
+
+.contentn h1 {
+	font-family: segoe script;
+	display: flex;
+	justify-content: center;
+}
+
+.contentn ol {
+	list-style-type: true;
+}
+
+.galn {
+	background-color: #ffc100;
+	padding: 20px;
+}
+
+.galn h1 {
+	font-family: segoe script;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gallerun {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	row-gap: 10px;
+	margin-left: 37px;
+}
+
+.footern {
+	background-color: #FFD700;
+}
+
+.oln {
+	background-color: #FFD700;
+}
+
+/* Magic */
+
+.mainm {
+	font-family: sans-serif;
+	background-image: url(img/magic/magicback.png);
+	background-size: cover;
+}
+
+.headerm {
+	background-color: #00CED1;
+}
+
+.mainm h1 {
+	font-family: segoe script;
+	display: flex;
+	justify-content: center;
+}
+
+.contentm {
+	background-color: #0798f3;
+}
+
+.contentm ol {
+	list-style-type: true;
+	font-size: 17px;
+}
+
+.contentm div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallerum {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	row-gap: 10px;
+	margin-left: 37px;
+}
+
+.gallerum img {
+	height: 236px;
+}
+
+.galm {
+	background-color: #0798f3;
+	padding: 20px;
+}
+
+.olm {
+	background-color: #00CED1;
+}
+
+.mainm footer {
+	background-color: #00CED1;
+}
+
+/* Bleach */
+
+.contentb {
+	background-color: #9e9e9e;
+}
+
+.mainb header {
+	background-color: #777777;
+}
+
+.mainb {
+	font-family: sans-serif;
+	background-image: url(img/bleach/background5.png);
+	background-size: cover;
+}
+
+.mainb h1 {
+	font-family: segoe script;
+	display: flex;
+	justify-content: center;
+}
+
+.olb {
+	list-style-type: true;
+	margin-right: 10px;
+}
+
+.facts {
+	display: flex;
+	justify-content: center;
+}
+
+.galerub {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	row-gap: 10px;
+	margin-left: 37px;
+}
+
+.galb {
+	background-color: #9e9e9e; 
+}
+
+.mainb footer {
+	background-color: #777777;
+}
+
+.olb1 {
+	background-color: #777777;
+}
